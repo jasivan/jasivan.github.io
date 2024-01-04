@@ -342,6 +342,45 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+/*--------------------------------------------------------------
+# Sections white
+--------------------------------------------------------------*/
+section_white {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section_white-bg {
+  background: #fff;
+}
+
+.section_white-title {
+  padding-bottom: 30px;
+}
+
+.section_white-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section_white-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+.section_white-title p {
+  margin-bottom: 0;
+}
 
 /*--------------------------------------------------------------
 # About
@@ -430,7 +469,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -469,6 +508,9 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume {
+  background: #f5f8fd;
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -845,6 +887,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  background-color: #f5f8fd;
 }
 
 .contact .info {
